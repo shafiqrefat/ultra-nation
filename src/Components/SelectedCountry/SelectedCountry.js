@@ -11,7 +11,7 @@ const totalPopulation = selectedCountry.reduce ((totalPopulation, country) =>tot
     return (
         <div>
             <h3>Selected Country: {selectedCountry.length}</h3>
-            <p>Total Area: {totalPopulation}</p>
+            <p>Total Population: {totalPopulation}</p>
         </div>
     );
 };
